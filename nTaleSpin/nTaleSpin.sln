@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nTaleSpin", "nTaleSpin\nTaleSpin.csproj", "{027D359A-9232-4BB7-9506-05A58A22FB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nTaleSpin.Tests", "..\nTaleSpin.Tests\nTaleSpin.Tests.csproj", "{603BD347-E63C-4C00-87C2-F381E0E0055E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{027D359A-9232-4BB7-9506-05A58A22FB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027D359A-9232-4BB7-9506-05A58A22FB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027D359A-9232-4BB7-9506-05A58A22FB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027D359A-9232-4BB7-9506-05A58A22FB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603BD347-E63C-4C00-87C2-F381E0E0055E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603BD347-E63C-4C00-87C2-F381E0E0055E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603BD347-E63C-4C00-87C2-F381E0E0055E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603BD347-E63C-4C00-87C2-F381E0E0055E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
