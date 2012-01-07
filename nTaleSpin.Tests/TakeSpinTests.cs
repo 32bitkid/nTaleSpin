@@ -9,15 +9,21 @@ namespace nTaleSpin.Tests
     [TestFixture]
     public class TaleSpinTests
     {
+        private Actor world;
+        private Actor joe;
+        private Thing water;
+            
+
         [SetUp]
         public void SetUp()
         {
-            var world = new Actor();
+            world = new Actor();
 
             var honey = new Thing();
             var berries = new Thing();
             var fish = new Thing();
             var worm = new Thing();
+            water = new Thing();
 
             var bear = new Persona();
             var bird = new Persona();
@@ -28,7 +34,7 @@ namespace nTaleSpin.Tests
             var ground = new Location();
             var river = new Location();
 
-            var joe = new Actor();
+            joe = new Actor();
             var irving = new Actor();
 
             world.thinks(bear).eats(honey, berries, fish);
@@ -67,10 +73,10 @@ namespace nTaleSpin.Tests
         public void JoeIsThirsty()
         {
             var thirsty = new ActorState();
-            thirst.isSolvedBy(water);
+            thirsty.isSolvedBy(water);
 
             joe.thinks(joe).isNow(thirsty); // Maybe abstract this into an injectable state
-            world.thinks(joe).isNow(thirst);
+            world.thinks(joe).isNow(thirsty);
 
         }
 
